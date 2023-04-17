@@ -8,7 +8,7 @@ import (
 func main() {
 	fmt.Println("Starting the server ...")
 	// create listener:
-	listener, err := net.Listen("tcp", "localhost:50000")
+	listener, err := net.Listen("tcp", "20.0.0.189:8080")
 	if err != nil {
 		fmt.Println("Error listening", err.Error())
 		return // terminate program
