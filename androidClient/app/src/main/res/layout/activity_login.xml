@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login"
+    android:background="@drawable/jess"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="211dp"
+            android:layout_height="244dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/logo_1" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Login"
+                android:textColor="@color/black"
+                android:fontFamily="@font/sedgwick_ave_regular"
+                android:textSize="@dimen/h1" />
+
+            <ImageView
+                android:layout_width="290dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="@dimen/padding"
+                android:src="@drawable/line_bar" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:paddingBottom="@dimen/padding">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:paddingRight="@dimen/padding"
+                        android:text="@string/username"
+                        android:fontFamily="@font/sedgwick_ave_regular"
+                        android:textColor="@color/paradais" />
+
+                    <EditText
+                        android:id="@+id/username"
+                        android:layout_width="@dimen/box_width"
+                        android:layout_height="@dimen/box_height"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/message_box"
+                        android:paddingLeft="@dimen/text_pad"
+                        android:paddingRight="@dimen/text_pad"
+                        android:fontFamily="@font/sedgwick_ave_regular"
+                        android:textColor="@color/context" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:paddingRight="@dimen/padding"
+                        android:fontFamily="@font/sedgwick_ave_regular"
+                        android:text="@string/password"
+                        android:textColor="@color/paradais" />
+
+                    <EditText
+                        android:id="@+id/password"
+                        android:layout_width="@dimen/box_width"
+                        android:layout_height="@dimen/box_height"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/message_box"
+                        android:fontFamily="@font/sedgwick_ave_regular"
+                        android:paddingLeft="@dimen/text_pad"
+                        android:paddingRight="@dimen/text_pad"
+                        android:textColor="@color/context" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+            <T
+        </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

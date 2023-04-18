@@ -35,14 +35,15 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_login);
+        /*
         LayoutInflater flatter = LayoutInflater.from(this);
         mPad_Layout = findViewById(R.id.message_pad);
         mMessageList = findViewById(R.id.chat_dialog_recycle);
         new ConnectTask().execute("");
         mMessageList.setLayoutManager(new LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false));
         mMessageLab = new messageLab();
-        mMessage_pad = new pad(mPad_Layout.getChildAt(0),this,mTcpClient);
+        mMessage_pad = new pad(mPad_Layout.getChildAt(0),this,mTcpClient);*/
     }
     public void updateUI(){
 //        Log.d(TAG, String.valueOf(m_lab.getRoutines().size()));

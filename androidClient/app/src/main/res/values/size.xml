@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="box_width">210dp</dimen>
+    <dimen name="box_height">43dp</dimen>
+    <dimen name="padding">10dp</dimen>
+    <dimen name="text_pad">10dp</dimen>
+    <dimen name="h1">20pt</dimen>
+
+</resources>
